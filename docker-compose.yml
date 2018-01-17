@@ -1,0 +1,8 @@
+version: '3'
+services:
+  redis: 
+    image: "redis:3"
+  add-a-tron:
+    image: "luppen/add-a-tron-server"
+    ports:
+      - 5000:8080
